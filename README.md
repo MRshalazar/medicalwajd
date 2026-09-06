@@ -235,6 +235,13 @@ backend/.venv/bin/python -m pip install -r requirements-linux.txt
 
 Use `requirements-linux.txt` for this setup. Installing the generic `requirements.txt` on Linux can fail with `No matching distribution found for pywin32` because that package is Windows-only.
 
+After cleaning the local workspace or cloning the repository again, recreate the Linux environment with:
+
+```bash
+python3 -m venv backend/.venv
+backend/.venv/bin/pip install -r requirements-linux.txt
+```
+
 Install Ollama, then download the required models:
 
 ```bash
