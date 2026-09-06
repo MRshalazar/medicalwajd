@@ -70,12 +70,6 @@ From the project root:
 docker compose up --build -d
 ```
 
-On Windows PowerShell, this is also valid:
-
-```powershell
-docker-compose up --build -d
-```
-
 This starts all required services from [docker-compose.yml](docker-compose.yml):
 
 - Ollama
@@ -233,7 +227,7 @@ backend/.venv/bin/python -m pip install --upgrade pip
 backend/.venv/bin/python -m pip install -r requirements-linux.txt
 ```
 
-Use `requirements-linux.txt` for this setup. Installing the generic `requirements.txt` on Linux can fail with `No matching distribution found for pywin32` because that package is Windows-only.
+Use `requirements-linux.txt` for this Linux setup.
 
 After cleaning the local workspace or cloning the repository again, recreate the Linux environment with:
 
@@ -256,7 +250,7 @@ cargo build --release --manifest-path zkp_engine/Cargo.toml
 ./run.sh
 ```
 
-The Linux requirements file excludes Windows-only packages. `run.sh` starts Ollama when needed, launches all services, waits for their ports, and opens the doctor console.
+The Linux requirements file contains the dependencies for this setup. `run.sh` starts Ollama when needed, launches all services, waits for their ports, and opens the doctor console.
 
 ### Verify a Linux run
 
@@ -278,17 +272,6 @@ Final Decision: Patient requires medical attention.
 In this output, `TRUE` means that the zero-knowledge proof was verified successfully. It does not mean that the patient is clinically stable. The final decision is the clinical result; `Patient requires medical attention` is an alert, even when proof verification succeeds. The complete workflow includes patient lookup, RAG retrieval, policy generation, proof generation and verification, and decision generation.
 
 If `run.sh` is started while an earlier CDSS stack is running, it stops existing Uvicorn services on the CDSS ports and starts a fresh stack. Do not stop unrelated processes using those ports.
-
-```powershell
-# Windows PowerShell
-.\run.ps1
-```
-
-Or start services individually:
-
-```powershell
-.\start.ps1
-```
 
 Then launch the console manually:
 
@@ -729,7 +712,7 @@ Privacy-Preserving-CDSS/
 │   ├── build_rag.py                # Build vector database
 │   └── prepare_dataset.py          # Prepare patient dataset
 ├── requirements.txt                # Python dependencies
-├── start.ps1                       # Windows startup script
+├── run.sh                          # Linux startup script
 └── README.md                       # This file
 ```
 

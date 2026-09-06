@@ -16,16 +16,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt ./requirements.txt
-RUN python - <<'PY'
-from pathlib import Path
-req_file = Path('requirements.txt')
-filtered = [
-    line for line in req_file.read_text(encoding='utf-8').splitlines()
-    if 'pywin32' not in line.lower() and 'pywin32-ctypes' not in line.lower()
-]
-Path('/tmp/requirements-docker.txt').write_text('\n'.join(filtered) + '\n', encoding='utf-8')
-PY
-RUN pip install --upgrade pip && pip install -r /tmp/requirements-docker.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
 COPY . .
 
