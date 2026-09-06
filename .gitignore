@@ -1,0 +1,24 @@
+evaluation/results/
+evaluation/figures/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime logs and local service state
+logs/
+*.pid
+
+# Local vector databases
+**/chroma_db/
+
+# Rust build output
+zkp_engine/target/

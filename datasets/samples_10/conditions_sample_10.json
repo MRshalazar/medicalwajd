@@ -1,0 +1,352 @@
+[
+  {
+    "id": "00934dbb-5139-57fe-aca5-e26de86605c4",
+    "code": {
+      "coding": [
+        {
+          "code": "V462",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Other dependence on machines, supplemental oxygen"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/8a5be724-d9d4-5a47-8a39-4a274662f766"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "f6eda68b-ff53-5d58-9205-4c0763db266b",
+    "code": {
+      "coding": [
+        {
+          "code": "5715",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Cirrhosis of liver without mention of alcohol"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/8a5be724-d9d4-5a47-8a39-4a274662f766"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "ee1fd0cd-1a31-51a4-986b-24ee87aad14c",
+    "code": {
+      "coding": [
+        {
+          "code": "45829",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Other iatrogenic hypotension"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/8a5be724-d9d4-5a47-8a39-4a274662f766"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "6e1fc32f-4c32-5556-bb1d-87bee1c65c8b",
+    "code": {
+      "coding": [
+        {
+          "code": "V4986",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Do not resuscitate status"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/8a5be724-d9d4-5a47-8a39-4a274662f766"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "41cc6db2-d4f9-5265-81bd-c6c873128d5d",
+    "code": {
+      "coding": [
+        {
+          "code": "3051",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Tobacco use disorder"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/89ec6d79-e48d-5694-8a8e-152e5e5dafe6"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "5a4841ac-378c-566f-b149-9bcb712611af",
+    "code": {
+      "coding": [
+        {
+          "code": "V08",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/89ec6d79-e48d-5694-8a8e-152e5e5dafe6"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "5676ca87-a19e-5377-8535-8a61f82955bb",
+    "code": {
+      "coding": [
+        {
+          "code": "2875",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Thrombocytopenia, unspecified"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/89ec6d79-e48d-5694-8a8e-152e5e5dafe6"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "bfb7bf5b-e7d6-57a3-b04b-53cfdbe92ffb",
+    "code": {
+      "coding": [
+        {
+          "code": "V08",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/8f0d2759-331b-5ef2-9175-5fa3d7b4abf9"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "8ee67add-b8e3-5607-a4d8-210a2892e7df",
+    "code": {
+      "coding": [
+        {
+          "code": "2767",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Hyperpotassemia"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/8f0d2759-331b-5ef2-9175-5fa3d7b4abf9"
+    },
+    "resourceType": "Condition"
+  },
+  {
+    "id": "b3fe1c03-a171-5d43-856c-2c3dc8076b60",
+    "code": {
+      "coding": [
+        {
+          "code": "07054",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-diagnosis-icd9",
+          "display": "Chronic hepatitis C without mention of hepatic coma"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-condition"
+      ]
+    },
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "encounter-diagnosis",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+            "display": "Encounter Diagnosis"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/8f0d2759-331b-5ef2-9175-5fa3d7b4abf9"
+    },
+    "resourceType": "Condition"
+  }
+]

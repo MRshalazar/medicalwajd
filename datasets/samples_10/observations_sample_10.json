@@ -1,0 +1,397 @@
+[
+  {
+    "id": "af68c869-661b-516c-bffd-3ac02d539d92",
+    "code": {
+      "coding": [
+        {
+          "code": "223761",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Temperature Fahrenheit"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T14:20:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Routine Vital Signs",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "resourceType": "Observation",
+    "valueQuantity": {
+      "code": "\u00b0F",
+      "unit": "\u00b0F",
+      "value": 98.7,
+      "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-units"
+    },
+    "effectiveDateTime": "2180-07-23T14:00:00-04:00"
+  },
+  {
+    "id": "1f5ef894-3df9-5f7b-9285-9d8582a38418",
+    "code": {
+      "coding": [
+        {
+          "code": "224642",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Temperature Site"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T14:18:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Routine Vital Signs",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "valueString": "Oral",
+    "resourceType": "Observation",
+    "effectiveDateTime": "2180-07-23T14:00:00-04:00"
+  },
+  {
+    "id": "a9db5ffc-be52-5e3d-97ec-dc7adb0a889a",
+    "code": {
+      "coding": [
+        {
+          "code": "224879",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Nares L"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T21:14:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "GI/GU",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "valueString": "Patent",
+    "resourceType": "Observation",
+    "effectiveDateTime": "2180-07-23T21:14:00-04:00"
+  },
+  {
+    "id": "95ad5fcd-2dd5-52ce-9b02-4421c6193ce1",
+    "code": {
+      "coding": [
+        {
+          "code": "224650",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Ectopy Type 1"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T14:18:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Routine Vital Signs",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "valueString": "None",
+    "resourceType": "Observation",
+    "effectiveDateTime": "2180-07-23T14:00:00-04:00"
+  },
+  {
+    "id": "0f3ea59c-5e6c-56c1-be31-a06bd8fa68a3",
+    "code": {
+      "coding": [
+        {
+          "code": "220048",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Heart Rhythm"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T14:18:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Routine Vital Signs",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "valueString": "SR (Sinus Rhythm)",
+    "resourceType": "Observation",
+    "effectiveDateTime": "2180-07-23T14:00:00-04:00"
+  },
+  {
+    "id": "f7dfe67c-1325-5181-8673-ef1f73d934c0",
+    "code": {
+      "coding": [
+        {
+          "code": "225054",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Anti Embolic Device Status"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T17:42:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Treatments",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "valueString": "Off",
+    "resourceType": "Observation",
+    "effectiveDateTime": "2180-07-23T15:00:00-04:00"
+  },
+  {
+    "id": "5871f7d8-c125-5f6b-bd79-f4ba2408fe46",
+    "code": {
+      "coding": [
+        {
+          "code": "220210",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Respiratory Rate"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T15:34:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Respiratory",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "resourceType": "Observation",
+    "valueQuantity": {
+      "code": "insp/min",
+      "unit": "insp/min",
+      "value": 23,
+      "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-units"
+    },
+    "effectiveDateTime": "2180-07-23T15:00:00-04:00"
+  },
+  {
+    "id": "d22fba09-1d5f-5131-8181-11a78c584e8d",
+    "code": {
+      "coding": [
+        {
+          "code": "224089",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Anti Embolic Device"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T17:42:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Treatments",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "valueString": "Compression sleeve",
+    "resourceType": "Observation",
+    "effectiveDateTime": "2180-07-23T15:00:00-04:00"
+  },
+  {
+    "id": "e5930f07-28da-53c1-97aa-868a076962b6",
+    "code": {
+      "coding": [
+        {
+          "code": "220048",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Heart Rhythm"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T15:34:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Routine Vital Signs",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "valueString": "SR (Sinus Rhythm)",
+    "resourceType": "Observation",
+    "effectiveDateTime": "2180-07-23T15:00:00-04:00"
+  },
+  {
+    "id": "357b46b7-2cec-5a1b-bb89-5b3f037adc1d",
+    "code": {
+      "coding": [
+        {
+          "code": "220180",
+          "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-chartevents-d-items",
+          "display": "Non Invasive Blood Pressure diastolic"
+        }
+      ]
+    },
+    "meta": {
+      "profile": [
+        "http://mimic.mit.edu/fhir/mimic/StructureDefinition/mimic-observation-chartevents"
+      ]
+    },
+    "issued": "2180-07-23T15:34:00-04:00",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/0a8eebfd-a352-522e-89f0-1d4a13abdebc"
+    },
+    "category": [
+      {
+        "coding": [
+          {
+            "code": "Routine Vital Signs",
+            "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-observation-category"
+          }
+        ]
+      }
+    ],
+    "encounter": {
+      "reference": "Encounter/18f74cab-e07d-5ca6-98b8-01f8f9956caa"
+    },
+    "resourceType": "Observation",
+    "valueQuantity": {
+      "code": "mmHg",
+      "unit": "mmHg",
+      "value": 56,
+      "system": "http://mimic.mit.edu/fhir/mimic/CodeSystem/mimic-units"
+    },
+    "effectiveDateTime": "2180-07-23T15:00:00-04:00"
+  }
+]

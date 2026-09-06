@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hypertension_adult_35",
+    "patient": {"id": "eval-001", "age": 35, "condition": "hypertension"},
+    "reference_policy": {"parameter": "systolic_bp", "min": 110, "max": 135}
+  },
+  {
+    "id": "hypertension_adult_55",
+    "patient": {"id": "eval-002", "age": 55, "condition": "hypertension"},
+    "reference_policy": {"parameter": "systolic_bp", "min": 110, "max": 135}
+  },
+  {
+    "id": "hypertension_adult_70",
+    "patient": {"id": "eval-003", "age": 70, "condition": "hypertension"},
+    "reference_policy": {"parameter": "systolic_bp", "min": 110, "max": 135}
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "query": "hypertension blood pressure management",
+    "expected_source": "Hypertension guideline.pdf"
+  },
+  {
+    "query": "diabetes glycemic management",
+    "expected_source": "Diabetes guideline.pdf"
+  },
+  {
+    "query": "heart failure clinical management",
+    "expected_source": "Heart Failure guideline.pdf"
+  }
+]
